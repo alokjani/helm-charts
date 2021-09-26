@@ -1,6 +1,6 @@
 apiVersion: v2
 name: redis
-description: A Helm chart for Redis on Kubernetes
+description: Helm chart for Redis on K8s
 
 type: application
 
@@ -8,7 +8,7 @@ maintainers:
   - name: alokjani
 
 # This is the chart version
-version: 0.4.7
+version: 6.2.5
 
 # This is the version number of the application being deployed.
 appVersion: "6.2.5"

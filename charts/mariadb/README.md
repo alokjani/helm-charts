@@ -8,6 +8,7 @@ A Helm chart for MariaDB on Kubernetes
 
 ```bash
 $ helm repo add alokjani https://alokjani.github.io/helm-charts/
+$ helm repo update
 $ helm install my-release alokjani/mariadb
 ```
 
@@ -19,7 +20,7 @@ It fully supports deployment of the multi-architecture docker image.
 
 ## Prerequisites
 
-- Kubernetes 1.12+
+- Kubernetes 1.22+
 - Helm 3.x
 - PV provisioner support in the underlying infrastructure
 
@@ -29,6 +30,22 @@ To install the chart with the release name `my-release`:
 
 ```bash
 $ helm install my-release alokjani/mariadb
+```
+
+Retrieve password and login.
+
+```
+$ kubectl exec my-release-mariadb-0 -- env | grep PASSWORD
+MYSQL_ROOT_PASSWORD=bMRfoYC7fv
+
+$ kubectl exec -it my-release-mariadb-0 -- mysql -uroot -pbMRfoYC7fv -e "show databases"
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
++--------------------+
 ```
 
 ## Uninstalling the Chart

@@ -11,4 +11,17 @@ entries:
     urls:
     - https://github.com/alokjani/helm-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-08T14:01:57.853398437Z"
+  redis:
+  - apiVersion: v2
+    appVersion: 6.2.5
+    created: "2021-09-26T08:03:41.262063864Z"
+    description: A Helm chart for Redis on Kubernetes
+    digest: 4c97399adaa7fad5245a7b8902684b858589deb3a7294d9892c77958cc1f5388
+    maintainers:
+    - name: alokjani
+    name: redis
+    type: application
+    urls:
+    - https://github.com/alokjani/helm-charts/releases/download/redis-0.4.7/redis-0.4.7.tgz
+    version: 0.4.7
+generated: "2021-09-26T08:03:41.262069664Z"

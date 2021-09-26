@@ -1,11 +1,13 @@
 # Cassandra
 A Cassandra Chart for Kubernetes
 
-## Install Chart
+## Install TL;DR
 To install the Cassandra Chart into your Kubernetes cluster (This Chart requires persistent volume by default, you may need to create a storage class before install chart. To create storage class, see [Persist data](#persist_data) section)
 
 ```bash
-helm install --namespace "cassandra" -n "cassandra" cassandra
+$ helm repo add alokjani https://alokjani.github.io/helm-charts/
+$ helm repo update
+$ helm install my-cassandra alokjani/cassandra
 ```
 
 After installation succeeds, you can get a status of Chart

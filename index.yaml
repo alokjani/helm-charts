@@ -16,6 +16,16 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-09-26T10:39:30.176733196Z"
+    description: A Helm chart for Kubernetes
+    digest: 99cb5fec000fc11d4732cbe40f09a4071dbe6df05c76f65757c17db4aacb2e2a
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/alokjani/helm-charts/releases/download/nginx-1.16.0/nginx-1.16.0.tgz
+    version: 1.16.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-08-08T14:01:57.853393537Z"
     description: A Helm chart for Kubernetes
     digest: a9318282ac70d9280c9d3336e6a2607f81caf2f58d45f5ee3ce6d32470dcd3c0
@@ -49,4 +59,4 @@ entries:
     urls:
     - https://github.com/alokjani/helm-charts/releases/download/redis-0.4.7/redis-0.4.7.tgz
     version: 0.4.7
-generated: "2021-09-26T10:36:47.411554174Z"
+generated: "2021-09-26T10:39:30.176748496Z"

@@ -1,0 +1,12 @@
+apiVersion: v2
+name: mariadb
+description: Helm chart for MariaDB on K8s
+
+type: application
+
+maintainers:
+  - name: alokjani
+
+version: 10.5.12
+
+appVersion: "10.5.12"

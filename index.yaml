@@ -36,6 +36,23 @@ entries:
     urls:
     - https://github.com/alokjani/helm-charts/releases/download/cassandra-0.15.4/cassandra-0.15.4.tgz
     version: 0.15.4
+  cockroachdb:
+  - apiVersion: v1
+    appVersion: 21.1.7
+    created: "2021-09-26T13:21:26.840165321Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: aab4ec2f14434e7602a4fb1f720ecf0a156e3e63b7273ca1ee08d25ef4d4537a
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - https://github.com/alokjani/helm-charts/releases/download/cockroachdb-6.1.2/cockroachdb-6.1.2.tgz
+    version: 6.1.2
   mariadb:
   - apiVersion: v2
     appVersion: 10.5.12
@@ -95,4 +112,4 @@ entries:
     urls:
     - https://github.com/alokjani/helm-charts/releases/download/redis-0.4.7/redis-0.4.7.tgz
     version: 0.4.7
-generated: "2021-09-26T12:08:15.33527026Z"
+generated: "2021-09-26T13:21:26.840180722Z"
